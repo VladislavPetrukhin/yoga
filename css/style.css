@@ -2,6 +2,7 @@
 body{
     margin:0;
     background: #e8e5e5;
+    box-sizing: border-box;
 }
 
 .navigation{
@@ -42,24 +43,37 @@ body{
 }
 .section1{
     margin: 0;
-    height: 103vh;
+
 }
 .img{
     margin:0;
+    position: absolute;
 }
+.cont1{
+    display: grid;
+    margin-top: 300px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    z-index: 2;
+    position: absolute;
+}
+
 .text1-box{
     display: block;
     text-align: right;
     padding-right: 300px;
-    z-index: 1;
+
+}
+.avatar{
+    padding-left: 200px;
+
 }
 .text1,.text2,.text3{
     color:white;
 
-
 }
 .text1{
-    margin-top: -70vh;
+
     font-size: 100px;
     text-shadow:15px 25px 15px black;
 }
@@ -73,7 +87,7 @@ body{
     text-shadow:15px 25px 10px black;
 }
 .section2{
-    height: 1000px;
+    margin-top: 110vh;
 
 }
 
@@ -88,11 +102,7 @@ body{
     font-size:80px;
     padding-top: 200px;
 }
-.avatar{
-    margin-top: -95vh;
-    padding-left: 200px;
-    z-index: 1;
-}
+
 .box-yoga{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -107,8 +117,8 @@ body{
 .yoga-card>p{
     width: 500px;
     border: black solid 2px;
-    border-radius: 20px;
-    padding: 10px 10px;
+    border-radius: 100px;
+    padding: 30px 30px;
     transition-duration: 2s;
     height: 400px;
 }
@@ -149,15 +159,21 @@ body{
     margin-bottom: 200px;
 }
 .arrow4{
-
     transform: rotate(90deg);
     margin-bottom: 200px;
 }
 .yoga-card-box{
     display: grid;
-    justify-content: center;
+    justify-content: space-around;
 }
 .yoga-card-box>div{
     text-align: center;
+}
+.text-about > p{
+    padding: 200px 200px 200px 200px;
+    font-size: 30px;
+}
+.ava-about{
+
 }
 
