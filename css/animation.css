@@ -1,0 +1,142 @@
+/* Общие стили для всех кнопок */
+.btn-different{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.slide-btns {
+    position: relative;
+    color: #fff;
+    font-size: 0.950em;
+    text-transform:  uppercase;
+    background: #83bec5;
+    border: 1px solid #527c82;
+    padding: 10px 30px;
+    margin: 15px;
+    z-index: 1;
+    overflow: hidden;
+}
+.slide-btns:hover {
+    color: #83bec5;
+    text-decoration: none;
+}
+.slide-btns::after {
+    content: "";
+    background: #527c82;
+    position: absolute;
+    z-index: -1;
+
+    display: block;
+}
+.slide-btns[class^="slide"]::after {
+    transition: all 0.60s;
+}
+.slide-btns[class^="slide"]:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.60s;
+}
+
+/* Button 1 Перекрывается слева */
+.slide-btns.slide-left::after {
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+}
+
+/* Button 2 Перекрывается справа */
+.slide-btns.slide-right::after {
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    right: -100%;
+}
+
+/* Button 3 Перекрывается сверху */
+.slide-btns.slide-top::after {
+    left: 0;
+    right: 0;
+    top: -100%;
+    bottom: 100%;
+}
+
+/* Button 4 Перекрывается снизу */
+.slide-btns.slide-bottom::after {
+    left: 0;
+    right: 0;
+    top: 100%;
+    bottom: -100%;
+}
+
+/* Время при наведении для оставшихся кнопок */
+.slide-btns[class^="slide"]::after {
+    transition: all 0.50s ease;
+}
+.slide-btns[class^="slide"]:hover::after {
+    transition: all 0.50s ease-out;
+}
+
+/* Button 5 Перекрывается квадрат */
+.slide-btns.slide-square::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0, 0);
+}
+.slide-btns.slide-square:hover::after {
+    transform: scale(1, 1);
+}
+
+/* Button 6 Перекрывается элипс */
+.slide-btns.slide-ellipse::after {
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    line-height: 10em;
+    transform: scale(0, 0);
+}
+.slide-btns.slide-ellipse:hover::after {
+    transform: scale(2, 2);
+}
+
+/* Button 7 Перекрывается диагонально направо */
+.slide-btns.slide-d-right::after {
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+}
+.slide-btns.slide-d-right:hover::after {
+    transform: skewX(-45deg) scale(2, 2);
+}
+
+/* Button 8 Перекрывается диагонально налево */
+.slide-btns.slide-d-left::after {
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(45deg) scale(0, 1);
+}
+.slide-btns.slide-d-left:hover::after {
+    transform: skewX(45deg) scale(2, 2);
+}
+
+/* Button 9 Перекрывается спиралью */
+.slide-btns.slide-spin::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0, 0) rotate(-180deg);
+}
+.slide-btns.slide-spin:hover::after {
+    transform: scale(1, 1) rotate(0deg);
+}

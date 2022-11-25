@@ -1,0 +1,163 @@
+
+body{
+    margin:0;
+    background: #e8e5e5;
+}
+
+.navigation{
+
+}
+.brand-logo{
+    width: 50px;
+    height: 100px;
+
+}
+.nav-group{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #2d7210;
+    height: 7vh;
+    margin-bottom: 0;
+}
+
+.nav-elem{
+    font-size: 40px ;
+    margin-left: 200px;
+    height: 100%;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-elem:hover{
+    background: #45a816;
+    font-size: 44px ;
+}
+.nav-elem>a{
+    color:white;
+}
+.nav-elem:nth-child(3){
+    margin-right: 500px;
+}
+.section1{
+    margin: 0;
+    height: 103vh;
+}
+.img{
+    margin:0;
+}
+.text1-box{
+    display: block;
+    text-align: right;
+    padding-right: 300px;
+    z-index: 1;
+}
+.text1,.text2,.text3{
+    color:white;
+
+
+}
+.text1{
+    margin-top: -70vh;
+    font-size: 100px;
+    text-shadow:15px 25px 15px black;
+}
+.text2{
+    margin-top: 200px;
+    font-size: 60px;
+    text-shadow:15px 25px 10px black;
+}
+.text3{
+    font-size: 60px;
+    text-shadow:15px 25px 10px black;
+}
+.section2{
+    height: 1000px;
+
+}
+
+.text-yoga-container{
+    padding-top: 100px;
+    display: block;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(184,184,240,1) 0%, rgba(0,212,255,1) 100%);
+}
+.text-yoga{
+    text-align: center;
+    font-size:80px;
+    padding-top: 200px;
+}
+.avatar{
+    margin-top: -95vh;
+    padding-left: 200px;
+    z-index: 1;
+}
+.box-yoga{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+}
+.yoga-card{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.yoga-card>p{
+    width: 500px;
+    border: black solid 2px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    transition-duration: 2s;
+    height: 400px;
+}
+.yoga-p1{
+    background: #ffe319;
+}
+.yoga-p2{
+    background: #1bff39;
+
+}
+.yoga-p1:hover{
+   background: #c61bff;
+    color:white;
+    transition-duration: 2s;
+
+}
+.yoga-p2:hover{
+    background: #75030d;
+    color:white;
+    transition-duration: 2s;
+
+}
+.arrow1{
+    transform: rotate(-90deg);
+    padding-top: 200px;
+    padding-bottom: 100px;
+    margin-right: -400px;
+}
+.arrow2{
+    transform: rotate(90deg);
+    padding-top: 200px;
+    padding-bottom: 100px;
+    margin-left: -400px;
+}
+.arrow3{
+
+    transform: rotate(90deg);
+    margin-bottom: 200px;
+}
+.arrow4{
+
+    transform: rotate(90deg);
+    margin-bottom: 200px;
+}
+.yoga-card-box{
+    display: grid;
+    justify-content: center;
+}
+.yoga-card-box>div{
+    text-align: center;
+}
+
