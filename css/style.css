@@ -136,7 +136,7 @@ body{
 
 }
 .yoga-p2:hover{
-    background: #75030d;
+    background: #b70616;
     color:white;
     transition-duration: 2s;
 
@@ -164,10 +164,12 @@ body{
 }
 .yoga-card-box{
     display: grid;
-    justify-content: space-around;
+    justify-content: center;
 }
 .yoga-card-box>div{
     text-align: center;
+    font-size: 40px;
+
 }
 .text-about > p{
     padding: 200px 200px 200px 200px;
