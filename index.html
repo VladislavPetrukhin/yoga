@@ -11,6 +11,9 @@
 
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/accordion.css">
@@ -38,22 +41,25 @@
 <div class="navigation">
     <ul class="nav-group">
 <!--        <a href="#" class="brand-logo"><img class="responsive-img" src="src/logo.png" alt="Oops!"></a>-->
-<!--        <li class="nav-elem"><a href="">Главная</a></li>-->
-<!--        <li class="nav-elem"><a href="">О йоге</a></li>-->
-<!--        <li class="nav-elem"><a href="">Инструктор</a></li>-->
-<!--        <li class="nav-elem"><a href="">Подробнее</a></li>-->
-<!--        <li class="nav-elem"><a href="">Галерея</a></li>-->
-<!--        <li class="nav-elem"><a href="">Предпросмотр</a></li>-->
-<!--        <li class="nav-elem"><a href="">Наш курс</a></li>-->
-<!--        <li class="nav-elem"><a href="">Отзывы</a></li>-->
-<!--        <li class="nav-elem"><a href="">Контакты</a></li>-->
-                <li class="nav-elem"><a href="">Home</a></li>
-                <li class="nav-elem"><a href="">About</a></li>
-                <li class="nav-elem"><a href="">Courses</a></li>
+        <li class="nav-elem"><a href="#home">Главная</a></li>
+        <li class="nav-elem"><a href="#about">О йоге</a></li>
+        <li class="nav-elem"><a href="#instructor">Инструктор</a></li>
+<!--        <li class="nav-elem"><a href="#more">Подробнее</a></li>-->
+        <li class="nav-elem"><a href="#gallery">Галерея</a></li>
+<!--        <li class="nav-elem"><a href="#predprsm">Предпросмотр</a></li>-->
+        <li class="nav-elem"><a href="#course">Наш курс</a></li>
+<!--        <li class="nav-elem"><a href="#feedback">Отзывы</a></li>-->
+        <li class="nav-elem"><a href="#contacts">Контакты</a></li>
+
+
+
+<!--                <li class="nav-elem"><a href="">Home</a></li>-->
+<!--                <li class="nav-elem"><a href="">About</a></li>-->
+<!--                <li class="nav-elem"><a href="">Courses</a></li>-->
 
     </ul>
 </div>
-<div class="section1" id="#home">
+<div class="section1" id="home">
 <img src="src/mountains.jpg" class="img responsive-img" alt="Oops!">
     <div class="cont1">
         <div class="s12 l6 avatar"><img class="responsive-img" src="src/avatar.png" alt="Oops!"></div>
@@ -66,7 +72,7 @@
     </div>
 
 
-<div class="section2" id="#about">
+<div class="section2" id="about">
 
    <div class="text-yoga-container">
 
@@ -86,11 +92,11 @@
     <div class="yoga-card"><img class="arrow3" src="src/arrow-straight2.png" alt=""></div>
     <div class="yoga-card"><img class="arrow4" src="src/arrow-straight.png" alt=""></div>
     <div class="yoga-card yoga-card-box"><div style="margin-top: 40px">Здоровье и красота</div>
-        <img src="src/heart.png" alt="">
+        <img class="heart-pulse responsive-img" src="src/heart.png" alt="">
     </div>
     <div class="yoga-card yoga-card-box"><div>Спокойствие и
         гармония,<br> психическое равновесие</div>
-        <img src="src/calm.png" alt="">
+        <img class="responsive-img animation_move" src="src/calm.png" alt="">
     </div>
     
 </div>
@@ -103,7 +109,7 @@
 </div>
 
 
-<div class="section3" id="#instructor">
+<div class="section3" id="instructor">
 
     <div class="row">
         <div class="col s12 l9 text-about">
@@ -117,7 +123,7 @@
 </div>
 
 
-    <div class="section4"  id="#more">
+    <div class="section4"  id="more">
         <div style="display: flex">
             <h3 class="text-more">Немного подробнее о йоге</h3>
         </div>
@@ -164,7 +170,7 @@
 
 
 
-    <div class="section5" id="#gallery">
+    <div class="section5" id="gallery">
 
         <div style="display: flex">
             <h3 class="text-more" style="margin-bottom: -200px">Наши фотографии</h3>
@@ -182,7 +188,7 @@
 
     </div>
 
-    <div class="section6"  id="#predprsm">
+    <div class="section6"  id="predprsm">
     <div style="display: flex">
         <h3 class="text-more">Попробуйте курс от профессионального инструктора</h3>
     </div>
@@ -191,7 +197,7 @@
         </div>
     </div>
     
-    <div class="section7"  id="#course">
+    <div class="section7"  id="course">
         <div class="row">
         <div class="col s12 l6"><img src="src/article918.jpg" alt="Oops"></div>
         <div class="col s12 l6">
@@ -202,7 +208,8 @@
                 <p><i class="fa fa-check" aria-hidden="true"></i>Lorem ipsum dolor sit amet.</p>
                 <p><i class="fa fa-check" aria-hidden="true"></i>Lorem ipsum dolor sit amet.</p>
                 <p><i class="fa fa-check" aria-hidden="true"></i>Lorem ipsum dolor sit amet.</p>
-                <div class="buy"><button class="custom-btn btn-7"><span style="margin: auto">Купить</span></button></div>
+<!--                <div class="buy"><button class="custom-btn btn-7"><span style="margin: auto">Купить</span></button></div>-->
+                <div class="buy"><button class="Animated_button button-53 line-btn line-btn-three buy-button"><span style="margin: auto">Купить</span></button></div>
             </div>
 
         </div>
@@ -211,9 +218,10 @@
 
     </div>
 
-    <div class="section8" id="#feedback">
+    <div class="section8" id="feedback">
 
-        <div class="feedback row">
+        <div class="feedback #f5f5f5 grey lighten-3">
+            <div class="row">
             <div class="ava-feedback col s12 l3"><img src="src/yoga-circle-icon.png" alt="Oops!"></div>
             <div class="col s12 l9">
             <h3>Lorem ipsum</h3>
@@ -222,17 +230,18 @@
             </p>
             </div>
         </div>
+        </div>
 
     </div>
 
-    <div class="section10" id="#contacts">
+    <div class="section10" id="contacts">
         <div style="display: flex">
             <h3 class="text-more">Наши контакты:</h3>
         </div>
         <div class="contacts">
-            <a style="text-decoration: none; color:white"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-            <a style="text-decoration: none; color:white"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a style="text-decoration: none; color:white; margin-right: 0"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+            <button class="whatsapp-button"><i class="fa fa-whatsapp" aria-hidden="true"></i></button>
+            <button class="facebook-button"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+            <button class="telegram-button" style="margin-right: 0"><i class="fa fa-telegram" aria-hidden="true"></i></button>
         </div>
     </div>
 
@@ -260,6 +269,7 @@
 
 
 <script type="text/javascript" src="js/materialize.js"></script>
+<script src="js/sweetalert2.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 
 

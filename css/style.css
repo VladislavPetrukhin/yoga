@@ -8,7 +8,9 @@ body{
 }
 
 .navigation{
-
+    /*position: fixed;*/
+    /*top:0;*/
+    width: 100%;
 }
 .brand-logo{
     width: 50px;
@@ -22,26 +24,29 @@ body{
     background: #2d7210;
     height: 7vh;
     margin-bottom: 0;
+    margin-top: 0;
+    font-family: "PTSerif Regular", sans-serif;
 }
 
 .nav-elem{
     font-size: 30px ;
-    margin-left: 200px;
-    height: 100%;
+    margin-left: 100px;
+    /*height: 100%;*/
     width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.nav-elem:hover{
-    background: #45a816;
-    font-size: 44px ;
+.nav-elem:hover >a{
+    /*background: #45a816;*/
+    /*font-size: 44px ;*/
+    color: rgba(255, 255, 255, 0.48);
 }
 .nav-elem>a{
     color:white;
 }
-.nav-elem:nth-child(3){
-    margin-right: 500px;
+.nav-elem:nth-child(6){
+    margin-right: 200px;
 }
 .section1{
     margin: 0;
@@ -251,18 +256,22 @@ body{
 }
 .section8{
     /*height: 80vh;*/
+    padding: 400px 0;
 }
 .feedback{
     margin: 0 auto;
-    padding-top: 400px;
-    padding-bottom: 400px;
     width: 60%;
+    border-radius: 15px;
+    padding-top: 20px;
 }
-.feedback > .col > h3{
+/*.feedback > .row{*/
+/*    background: #d2d5d2;*/
+/*}*/
+.feedback > .row > .col > h3{
     font-size: 60px;
     margin: 0;
 }
-.feedback > .col > p{
+.feedback > .row > .col > p{
     font-size: 30px;
 }
 .section9{
@@ -303,8 +312,11 @@ body{
     padding-right: 500px;
 }
 
-.contacts > a{
+.contacts > button{
     margin-right: 100px;
+    background: #2d7210;
+    border: none;
+    color: whitesmoke;
     cursor: pointer;
 }
 .page-footer{
@@ -316,3 +328,17 @@ body{
 /*    height: 10vh;*/
 /*    background-color: #2d7210;*/
 /*}*/
+
+
+
+
+
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat.ttf");
+}
+@font-face {
+    font-family: PTSerif Regular;
+    src: url("../fonts/PT Serif.ttf");
+}
