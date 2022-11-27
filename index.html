@@ -9,8 +9,14 @@
 
     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
 
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="stylesheet" href="css/carousel.css">
+
+
 
 
 
@@ -32,12 +38,22 @@
 <div class="navigation">
     <ul class="nav-group">
 <!--        <a href="#" class="brand-logo"><img class="responsive-img" src="src/logo.png" alt="Oops!"></a>-->
-        <li class="nav-elem"><a href="">Home</a></li>
-        <li class="nav-elem"><a href="">About</a></li>
-        <li class="nav-elem"><a href="">Courses</a></li>
+<!--        <li class="nav-elem"><a href="">Главная</a></li>-->
+<!--        <li class="nav-elem"><a href="">О йоге</a></li>-->
+<!--        <li class="nav-elem"><a href="">Инструктор</a></li>-->
+<!--        <li class="nav-elem"><a href="">Подробнее</a></li>-->
+<!--        <li class="nav-elem"><a href="">Галерея</a></li>-->
+<!--        <li class="nav-elem"><a href="">Предпросмотр</a></li>-->
+<!--        <li class="nav-elem"><a href="">Наш курс</a></li>-->
+<!--        <li class="nav-elem"><a href="">Отзывы</a></li>-->
+<!--        <li class="nav-elem"><a href="">Контакты</a></li>-->
+                <li class="nav-elem"><a href="">Home</a></li>
+                <li class="nav-elem"><a href="">About</a></li>
+                <li class="nav-elem"><a href="">Courses</a></li>
+
     </ul>
 </div>
-<div class="section1">
+<div class="section1" id="#home">
 <img src="src/mountains.jpg" class="img responsive-img" alt="Oops!">
     <div class="cont1">
         <div class="s12 l6 avatar"><img class="responsive-img" src="src/avatar.png" alt="Oops!"></div>
@@ -50,7 +66,7 @@
     </div>
 
 
-<div class="section2">
+<div class="section2" id="#about">
 
    <div class="text-yoga-container">
 
@@ -87,7 +103,7 @@
 </div>
 
 
-<div class="section3">
+<div class="section3" id="#instructor">
 
     <div class="row">
         <div class="col s12 l9 text-about">
@@ -100,9 +116,152 @@
 
 </div>
 
-<script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <div class="section4"  id="#more">
+        <div style="display: flex">
+            <h3 class="text-more">Немного подробнее о йоге</h3>
+        </div>
+
+
+
+        <div class="acor-container">
+
+            <input type="checkbox" name="chacor" id="chacor1" checked="checked" />
+            <label for="chacor1">Lorem ipsum dolor sit amet.</label>
+            <div class="acor-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus blanditiis consectetur maxime numquam tempora vel?</p>
+            </div>
+
+            <input type="checkbox" name="chacor" id="chacor2" />
+            <label for="chacor2">Lorem ipsum dolor sit amet.</label>
+            <div class="acor-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid laudantium provident rerum sapiente sunt.</p>
+            </div>
+
+            <input type="checkbox" name="chacor" id="chacor3" />
+            <label for="chacor3">Lorem ipsum dolor sit amet.</label>
+            <div class="acor-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi facere magnam natus quasi, ratione vero.</p>
+            </div>
+
+            <input type="checkbox" name="chacor" id="chacor4" />
+            <label for="chacor4">Lorem ipsum dolor sit amet.</label>
+            <div class="acor-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi facere magnam natus quasi, ratione vero.</p>
+            </div>
+
+            <input type="checkbox" name="chacor" id="chacor5" />
+            <label for="chacor5">Lorem ipsum dolor sit amet.</label>
+            <div class="acor-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi facere magnam natus quasi, ratione vero.</p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class="section5" id="#gallery">
+
+        <div style="display: flex">
+            <h3 class="text-more" style="margin-bottom: -200px">Наши фотографии</h3>
+        </div>
+
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img class="responsive-img" alt="Oops!" src="src/article918.jpg"></a>
+            <a class="carousel-item" href="#two!"><img class="responsive-img" alt="Oops!" src="src/article918.jpg"></a>
+            <a class="carousel-item" href="#three!"><img class="responsive-img" alt="Oops!" src="src/article918.jpg"></a>
+            <a class="carousel-item" href="#four!"><img class="responsive-img" alt="Oops!" src="src/article918.jpg"></a>
+            <a class="carousel-item" href="#five!"><img class="responsive-img" alt="Oops!" src="src/article918.jpg"></a>
+        </div>
+
+
+
+    </div>
+
+    <div class="section6"  id="#predprsm">
+    <div style="display: flex">
+        <h3 class="text-more">Попробуйте курс от профессионального инструктора</h3>
+    </div>
+        <div class="video">
+        <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/ytnM6LnknKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        </div>
+    </div>
+    
+    <div class="section7"  id="#course">
+        <div class="row">
+        <div class="col s12 l6"><img src="src/article918.jpg" alt="Oops"></div>
+        <div class="col s12 l6">
+
+            <div class="include-course">
+                <h3>Что включает в себя курс:</h3>
+                <p><i class="fa fa-check" aria-hidden="true"></i>Lorem ipsum dolor sit amet.</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>Lorem ipsum dolor sit amet.</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>Lorem ipsum dolor sit amet.</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>Lorem ipsum dolor sit amet.</p>
+                <div class="buy"><button class="custom-btn btn-7"><span style="margin: auto">Купить</span></button></div>
+            </div>
+
+        </div>
+        </div>
+
+
+    </div>
+
+    <div class="section8" id="#feedback">
+
+        <div class="feedback row">
+            <div class="ava-feedback col s12 l3"><img src="src/yoga-circle-icon.png" alt="Oops!"></div>
+            <div class="col s12 l9">
+            <h3>Lorem ipsum</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam distinctio dolore earum eius et excepturi ipsam iste itaque laborum laudantium libero molestias officiis porro quam quos, sed vel? Accusamus corporis eos esse ipsum laboriosam mollitia, nulla officia omnis vitae voluptatem. Dolore doloremque dolores excepturi harum itaque odio quae, tempore veritatis? Ab asperiores atque aut consectetur ducimus eligendi est et facere id illum, ipsam maxime molestias officiis porro quasi ullam vel.
+            </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section10" id="#contacts">
+        <div style="display: flex">
+            <h3 class="text-more">Наши контакты:</h3>
+        </div>
+        <div class="contacts">
+            <a style="text-decoration: none; color:white"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            <a style="text-decoration: none; color:white"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a style="text-decoration: none; color:white; margin-right: 0"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+    <div class="section9">
+        <div>
+        <h1>Ждем вас!</h1>
+        <div><img src="src/logo.png" alt="Oops!"></div>
+        </div>
+
+    </div>
+
+    <footer class="page-footer">
+    <div class="footer-copyright">
+        <div class="container">
+            © 2022 All rights reserved <br>
+            Копирование материала без согласия автора запрещено
+        </div>
+    </div>
+    </footer>
+
+
+    
+</div>
+
+
+
+<script type="text/javascript" src="js/materialize.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 
-</div>
+
 </body>
 </html>

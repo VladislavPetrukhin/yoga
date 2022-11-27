@@ -1,0 +1,16 @@
+.carousel{
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+}
+.carousel-item{
+    /*height: 30vh;*/
+}
+.carousel .carousel-item {
+    width: 50%;
+    height: 50%;
+    min-height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
