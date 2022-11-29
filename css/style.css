@@ -251,7 +251,7 @@ body{
 }
 
 .yoga-card > p {
-    /*width: 500px;*/
+    width: 30vw;
     border: black solid 2px;
     border-radius: 100px;
     padding: 40px 40px;
@@ -342,7 +342,7 @@ body{
     }
 
     .yoga-card > p {
-        /*width: 500px;*/
+        width: 40vw;
         /*height: 400px;*/
         border: black solid 2px;
         border-radius: 100px;
@@ -510,10 +510,13 @@ body{
 
 }
 
-.include-course > p {
-    font-size: 30px;
+.include-paragraph{
     margin-right: auto;
     margin-left: auto;
+}
+.include-paragraph > p {
+    font-size: 30px;
+    text-align: left;
 }
 
 .buy {
@@ -553,8 +556,12 @@ body{
         margin-top: 50px;
         font-size: 30px;
     }
-
-    .include-course > p {
+    .include-paragraph{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .include-paragraph > p {
+        text-align: left;
         font-size: 15px;
     }
 
