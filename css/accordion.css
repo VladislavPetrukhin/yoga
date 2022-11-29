@@ -1,10 +1,10 @@
 
 .acor-container {
     margin: 20px auto;
-
     width: 50%;
 }
-.acor-container .acor-body {
+
+.acor-container > form > .acor-body {
     width: calc(100% - 40px);
     margin: 0 auto;
     height: 0;
@@ -16,13 +16,13 @@
     transition: color 0.75s, padding 0.75s;
     overflow: hidden;
     font-family: Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 10px 16px rgba(0,0,0,0.2);
 }
-.acor-container .acor-body p {
+.acor-container > form > .acor-body p {
     margin: 0 10px;
 }
-.acor-container label {
+.acor-container > form > label {
     cursor: pointer;
     background-color: #337AB7;
     display: block;
@@ -33,32 +33,44 @@
     box-sizing: border-box;
     z-index: 5;
     font-family: Verdana, sans-serif;
-    font-size: 40px;
+    font-size: 25px;
     margin: 0 0 5px;
     transition: color .35s;
 }
-.acor-container label:hover {
+.acor-container > form > label:hover {
     color: #FFF;
 }
-.acor-container input{
+.acor-container  > form > input{
     display: none;
 }
-.acor-container label:before {
+.acor-container  > form > label:before {
     content: '\276F';
     float: right;
 }
-.acor-container input:checked + label {
+.acor-container  > form > input:checked + label {
     background-color: #285f8f;
     color: #FFF;
     box-shadow: 0 8px 26px rgba(0,0,0,0.4), 0 28px 30px rgba(0,0,0,0.3);
 }
-.acor-container input:checked + label:before {
+.acor-container > form >  input:checked + label:before {
     transition: transform .6s;
     transform: rotate(90deg);
 }
-.acor-container input:checked + label + .acor-body {
+.acor-container > form >  input:checked + label + .acor-body {
     height: auto;
     margin-top: -5px;
     color: #000;
     padding: 20px 30px 10px;
+}
+
+@media screen and (max-width: 599px) {
+    .acor-container {
+        width: 60%;
+    }
+    .acor-container > form >  .acor-body {
+        font-size: 10px;
+    }
+    .acor-container > form >  label {
+        font-size: 15px;
+    }
 }

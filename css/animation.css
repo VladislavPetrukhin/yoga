@@ -180,6 +180,13 @@
     0 10px 10px rgba(0, 0, 0, 0.4);
 }
 
+@media screen and (max-width: 599px) {
+    .wave span {
+        font-size: 50px;
+    }
+}
+
+
 .wave span:nth-child(2) {
     animation-delay: .1s;
 }
@@ -438,6 +445,12 @@
     margin: 5em 0; /* Отступ кнопок */
     transition: all 0.5s;
     position: relative;
+}
+
+@media screen and (max-width: 599px) {
+    .line-btn {
+        margin: 1em; /* Отступ кнопок */
+    }
 }
 
 /* Button 3 */

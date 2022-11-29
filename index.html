@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/sweetalert2.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/accordion.css">
@@ -60,9 +61,11 @@
     </ul>
 </div>
 <div class="section1" id="home">
-<img src="src/mountains.jpg" class="img responsive-img" alt="Oops!">
+<!--    <div class="mountains img responsive-img"></div>-->
+    <img src="src/mountains.jpg" class="img responsive-img img-desktop" alt="Oops!">
+    <img src="src/mountains2.jpg" class="img responsive-img img-mobile" alt="Oops!">
     <div class="cont1">
-        <div class="s12 l6 avatar"><img class="responsive-img" src="src/avatar.png" alt="Oops!"></div>
+        <div class="avatar"><img class="responsive-img" src="src/avatar.png" alt="Oops!"></div>
         <div class="text1-box">
 <h1 class="text1">Окунитесь в мир йоги</h1>
     <h1 class="text2">вместе с профессиональным инструктором</h1>
@@ -98,7 +101,7 @@
         гармония,<br> психическое равновесие</div>
         <img class="responsive-img animation_move" src="src/calm.png" alt="">
     </div>
-    
+
 </div>
 
 
@@ -112,12 +115,12 @@
 <div class="section3" id="instructor">
 
     <div class="row">
-        <div class="col s12 l9 text-about">
+        <div class="col s12 l10 text-about">
             <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur consequuntur cumque enim est, ex facilis fuga incidunt laborum libero necessitatibus nostrum officia porro possimus quis ratione reiciendis sequi totam velit veniam veritatis vero vitae. Ab adipisci assumenda beatae, commodi consectetur cumque cupiditate dignissimos doloremque earum ex exercitationem explicabo facilis hic id impedit incidunt ipsam ipsum iure libero magnam magni minus nam necessitatibus officia optio placeat praesentium, provident quae quam quia quibusdam quisquam ratione rerum similique, tenetur ullam veritatis. Ad alias consectetur deleniti dolorum facere, illum necessitatibus numquam pariatur possimus ratione recusandae repudiandae vitae? Adipisci commodi ipsa unde vel veritatis.
             </p>
              </div>
-        <div class="col s12 l3 ava-about"><img class= "responsive-img" src="src/avatar.png" alt="Oops!"></div>
+        <div class="col s12 l2 ava-about"><img class= "responsive-img" src="src/avatar.png" alt="Oops!"></div>
     </div>
 
 </div>
@@ -131,37 +134,37 @@
 
 
         <div class="acor-container">
-
-            <input type="checkbox" name="chacor" id="chacor1" checked="checked" />
+        <form>
+            <input type="radio" name="chacor" id="chacor1" checked="checked" />
             <label for="chacor1">Lorem ipsum dolor sit amet.</label>
             <div class="acor-body">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus blanditiis consectetur maxime numquam tempora vel?</p>
             </div>
 
-            <input type="checkbox" name="chacor" id="chacor2" />
+            <input type="radio" name="chacor" id="chacor2" />
             <label for="chacor2">Lorem ipsum dolor sit amet.</label>
             <div class="acor-body">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid laudantium provident rerum sapiente sunt.</p>
             </div>
 
-            <input type="checkbox" name="chacor" id="chacor3" />
+            <input type="radio" name="chacor" id="chacor3" />
             <label for="chacor3">Lorem ipsum dolor sit amet.</label>
             <div class="acor-body">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi facere magnam natus quasi, ratione vero.</p>
             </div>
 
-            <input type="checkbox" name="chacor" id="chacor4" />
+            <input type="radio" name="chacor" id="chacor4" />
             <label for="chacor4">Lorem ipsum dolor sit amet.</label>
             <div class="acor-body">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi facere magnam natus quasi, ratione vero.</p>
             </div>
 
-            <input type="checkbox" name="chacor" id="chacor5" />
+            <input type="radio" name="chacor" id="chacor5" />
             <label for="chacor5">Lorem ipsum dolor sit amet.</label>
             <div class="acor-body">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi facere magnam natus quasi, ratione vero.</p>
             </div>
-
+        </form>
         </div>
 
 
@@ -196,11 +199,11 @@
         <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/ytnM6LnknKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </div>
     </div>
-    
+
     <div class="section7"  id="course">
         <div class="row">
-        <div class="col s12 l6"><img src="src/article918.jpg" alt="Oops"></div>
-        <div class="col s12 l6">
+        <div class="col s12 l6"><img class="responsive-img" src="src/article918.jpg" alt="Oops"></div>
+        <div class="col s12 l6 cont">
 
             <div class="include-course">
                 <h3>Что включает в себя курс:</h3>
@@ -221,20 +224,17 @@
     <div class="section8" id="feedback">
 
         <div class="feedback #f5f5f5 grey lighten-3">
-            <div class="row">
-            <div class="ava-feedback col s12 l3"><img src="src/yoga-circle-icon.png" alt="Oops!"></div>
-            <div class="col s12 l9">
-            <h3>Lorem ipsum</h3>
+            <div class="ava-feedback"><img class="responsive-img" src="src/yoga-circle-icon.png" alt="Oops!">
+                <h3>Lorem ipsum</h3>
+            </div>
+
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam distinctio dolore earum eius et excepturi ipsam iste itaque laborum laudantium libero molestias officiis porro quam quos, sed vel? Accusamus corporis eos esse ipsum laboriosam mollitia, nulla officia omnis vitae voluptatem. Dolore doloremque dolores excepturi harum itaque odio quae, tempore veritatis? Ab asperiores atque aut consectetur ducimus eligendi est et facere id illum, ipsam maxime molestias officiis porro quasi ullam vel.
             </p>
-            </div>
         </div>
         </div>
 
-    </div>
-
-    <div class="section10" id="contacts">
+    <div class="section9" id="contacts">
         <div style="display: flex">
             <h3 class="text-more">Наши контакты:</h3>
         </div>
@@ -245,10 +245,10 @@
         </div>
     </div>
 
-    <div class="section9">
+    <div class="section10">
         <div>
         <h1>Ждем вас!</h1>
-        <div><img src="src/logo.png" alt="Oops!"></div>
+        <div class="end-img"><img class="responsive-img" src="src/logo.png" alt="Oops!"></div>
         </div>
 
     </div>
