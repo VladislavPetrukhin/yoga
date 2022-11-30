@@ -10,11 +10,10 @@ let button3 = document.getElementById("btn3");
 let button4 = document.getElementById("btn4");
 let button5 = document.getElementById("btn5");
 let button6 = document.getElementById("btn6");
-let button_whatsapp = document.getElementById("whatsapp-button");
-let button_telegram = document.getElementById("telegram-button");
-let button_facebook = document.getElementById("facebook-button");
+let button_whatsapp = document.querySelector(".whatsapp-button");
+let button_telegram = document.querySelector(".telegram-button");
+let button_facebook = document.querySelector(".facebook-button");
 let buy_button = document.querySelector(".buy-button");
-// let bodyclk = document.querySelector("body");
 
 
 function buy(){
@@ -85,8 +84,7 @@ button6.addEventListener("click", menuclk);
 button_whatsapp.addEventListener("click", whatsapp);
 button_facebook.addEventListener("click", facebook);
 button_telegram.addEventListener("click", telegram);
-buy_button.addEventListener("click", bye);
-// bodyclk.addEventListener("click", menuclk);
+buy_button.addEventListener("click", buy);
 
 
 });
