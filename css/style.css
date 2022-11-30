@@ -722,6 +722,10 @@ body{
 }
 
 @media screen and (max-width: 1279px) {
+    .section8 {
+        /*height: 80vh;*/
+        padding: 100px 0;
+    }
     .feedback {
         width: 70%;
         border-radius: 15px;
