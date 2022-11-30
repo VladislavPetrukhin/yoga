@@ -130,7 +130,7 @@ body{
     color: white;
 }
 
-.nav-elem:nth-child(6) {
+.nav-elem:nth-child(7) {
     margin-right: 200px;
 }
 
@@ -201,7 +201,14 @@ body{
     }
 }
 
-
+@media screen and (min-width: 1440px) and (max-width: 1700px){
+    .cont1 {
+        margin-top: 150px;
+    }
+    .text2 {
+        margin-top: 100px;
+    }
+}
 
 
 @media screen and (max-width: 1279px) {
@@ -729,6 +736,107 @@ body{
         font-size: 15px;
     }
 }
+
+
+
+html,body{
+    margin:0;
+}
+.section-tour {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(184, 184, 240, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.tour-text-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding-top: 100px;
+}
+.title-tour,.next-title-tour{
+    text-align: center;
+}
+.tour-p{
+    text-align: center;
+    font-size: 20px;
+    padding: 100px;
+}
+.section-tour > .carousel{
+    height: 80vh;
+}
+.tour-card-box{
+    width: 90vw;
+    margin: 150px auto 100px;
+    background-color: rgba(253, 255, 27, 0.75);
+    border-radius: 30px;
+}
+.tour-card{
+    padding: 20px;
+    margin: 0 auto;
+}
+.tour-card-img > img{
+    margin: 30px auto auto;
+}
+.tour-card-info{
+
+}
+.tour-card-title{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    font-weight: bolder;
+}
+.tour-card-date{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.tour-card-p{
+
+}
+
+
+@media screen and (max-width: 600px){
+    .tour-text-box{
+        padding-top: 50px;
+    }
+    .tour-card-box{
+        margin: 50px auto 100px;
+    }
+    .tour-p{
+        padding: 30px;
+        font-size: 15px;
+    }
+    .section-tour > .carousel{
+        height: 60vh;
+    }
+    .title-tour{
+        font-size: 40px;
+    }
+    .next-title-tour{
+        font-size: 30px;
+    }
+    .tour-card-title{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .tour-card-date{
+        font-size: 20px;
+    }
+    .tour-card-p{
+        font-size: 14px;
+    }
+    .tour-card-img > img{
+        margin: 10px auto auto;
+    }
+}
+@media screen and (min-width: 601px )and (max-width: 1024px){
+    .tour-card-p{
+        font-size: 18px;
+    }
+}
+
+
 
 
 

@@ -3,6 +3,14 @@ document.addEventListener('DOMContentLoaded', function() {
     let instances = M.Carousel.init(elems, {
 
     });
+    let elems2 = document.querySelectorAll('.carousel2');
+    let instance2 = M.Carousel.init(elems2,{
+        fullWidth: true,
+        indicators: true
+    });
+
+
+
 
 let button1 = document.getElementById("btn1");
 let button2 = document.getElementById("btn2");
@@ -10,6 +18,7 @@ let button3 = document.getElementById("btn3");
 let button4 = document.getElementById("btn4");
 let button5 = document.getElementById("btn5");
 let button6 = document.getElementById("btn6");
+let button7 = document.getElementById("btn7");
 let button_whatsapp = document.querySelector(".whatsapp-button");
 let button_telegram = document.querySelector(".telegram-button");
 let button_facebook = document.querySelector(".facebook-button");
@@ -81,6 +90,7 @@ button3.addEventListener("click", menuclk);
 button4.addEventListener("click", menuclk);
 button5.addEventListener("click", menuclk);
 button6.addEventListener("click", menuclk);
+button7.addEventListener("click", menuclk);
 button_whatsapp.addEventListener("click", whatsapp);
 button_facebook.addEventListener("click", facebook);
 button_telegram.addEventListener("click", telegram);
