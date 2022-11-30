@@ -476,8 +476,9 @@ body{
     }
 
     .text-about > p {
-        padding: 0;
+        padding: 20px;
         font-size: 10px;
+        text-align: center;
     }
 
     .ava-about > img {
@@ -491,7 +492,8 @@ body{
     }
 
     .text-about > p {
-        padding: 0;
+        padding: 12px;
+        text-align: center;
         font-size: 20px;
     }
 
