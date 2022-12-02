@@ -525,7 +525,7 @@ body{
 .section5 {
     height: 110vh;
 }
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 980px) {
     .section4 {
         height: 100vh;
     }
@@ -542,6 +542,23 @@ body{
     }
 
 }
+/*@media screen and (max-width: 1444px) {*/
+/*    .section4 {*/
+/*        height: 100vh;*/
+/*    }*/
+/*    .section5 {*/
+/*        height: 60vh;*/
+/*    }*/
+/*    .section6 {*/
+/*        height: 60vh;*/
+/*    }*/
+
+/*    .text-more {*/
+/*        margin: 50px auto;*/
+/*        font-size: 25px;*/
+/*    }*/
+
+/*}*/
 
 .video {
     height: 30vh;
@@ -628,7 +645,7 @@ body{
 }
 
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 980px) {
 
     .section7 {
         /*display: flex;*/
@@ -671,6 +688,13 @@ body{
         margin: 0;
     }
 
+}
+@media screen and (min-width: 981px) and (max-width: 1280px) {
+    .section7 {
+        /*display: flex;*/
+        /*justify-content: center;*/
+        height: 120vh;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1279px) {
